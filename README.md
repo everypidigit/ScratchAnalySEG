@@ -8,7 +8,8 @@ Scratch assays are a notoriously tedious task since most of them are done by han
 We propose a Python-based segmentation solution that accounts for all cells and reduces measurement error.
 
 #### Using image downscaling, followed by entropy and finding countours, we are able to capture as many cells as possible.
-![Uploading image.png…]()
+
+![alt text](https://github.com/everypidigit/ScratchAnalySEG/blob/main/Screenshot%202023-06-13%20at%2012.12.41.png)
 
 
 1. https://pubmed.ncbi.nlm.nih.gov/21748666/
