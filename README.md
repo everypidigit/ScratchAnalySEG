@@ -10,6 +10,7 @@ We propose a Python-based segmentation solution that accounts for all cells and 
 #### Using image downscaling, followed by entropy and finding countours, we are able to capture as many cells as possible.
 
 ![alt text](https://github.com/everypidigit/ScratchAnalySEG/blob/main/Screenshot%202023-06-13%20at%2012.12.41.png)
+![alt text](https://github.com/everypidigit/ScratchAnalySEG/blob/main/Screenshot%202023-06-13%20at%2012.12.48.png)
 
 
 1. https://pubmed.ncbi.nlm.nih.gov/21748666/
