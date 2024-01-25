@@ -1,16 +1,14 @@
-# Different ways to segment scratch assay images to count the area that cancer cells cover with time
-
-### The scratch-wound assay is a simple, reproducible assay commonly used to measure basic cell migration parameters such as speed, persistence, and polarity.
+### Scratch-wound assay is a simple, reproducible assay commonly used to measure basic cell migration parameters such as speed, persistence, and polarity.
 
 Cells are grown to confluence and a thin "wound" introduced by scratching with a pipette tip. Cells at the wound edge polarise and migrate into the wound space [1].
 
 Scratch assays are a notoriously tedious task since most of them are done by hand. Although some tools for automatic segmentation and area counting exist, they do not account for cancer cells that are left in the middle of a wound after scratch.
 
-This repository contains code for a proposed Python-based segmentation solution that accounts for all cells and reduces measurement error. 
+This repository contains code for a proposed Python-based segmentation solution that accounts for all cells and reduces measurement error.
 
 It will be updated in near future.
 
-#### Using image downscaling, followed by entropy and finding countours, we are able to capture as many cells as possible.
+##### Using image downscaling, followed by entropy and finding countours, we are able to capture as many cells as possible.
 
 ![alt text](https://github.com/everypidigit/ScratchAnalySEG/blob/main/Screenshot%202023-06-13%20at%2012.12.41.png)
 ![alt text](https://github.com/everypidigit/ScratchAnalySEG/blob/main/Screenshot%202023-06-13%20at%2012.12.48.png)
