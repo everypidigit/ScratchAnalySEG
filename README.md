@@ -8,6 +8,10 @@ This repository contains code for a proposed Python-based segmentation solution 
 
 The basic example included in this repository is a scratch assay done at Nazarbayev University. There are 10 images of the first 10 hours of an experiment.
 
+Create a new environment and install all of the required packages. To install required packages, run:
+
+###### pip install requirements.txt
+
 To run the example code, type:
 
 ###### python analyseg.py
@@ -16,17 +20,13 @@ It will then output a graph with areas plotted against time.
 
 The repository will be updated in the future to add new functionality and better performance.
 
-
-
 #### Masks that are created during computations (1 & 2) and the original image (3):
+
 ![masks](https://github.com/everypidigit/ScratchAnalySEG/blob/main/masks.png)
 
-
 #### Segmentation example:
+
 ![segm](https://github.com/everypidigit/ScratchAnalySEG/blob/main/segmentation_example.png)
-
-
-
 
 ###### References:
 
