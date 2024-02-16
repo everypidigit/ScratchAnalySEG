@@ -19,10 +19,11 @@ The repository will be updated in the future to add new functionality and better
 
 
 #### Masks that are created during computations (1 & 2) and the original image (3):
+![masks](https://github.com/everypidigit/ScratchAnalySEG/blob/main/masks.png)
 
 
 #### Segmentation example:
-
+![segm][https://github.com/everypidigit/ScratchAnalySEG/blob/main/segmentation_example.png]
 
 
 
