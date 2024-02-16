@@ -1,24 +1,16 @@
 import cv2
-import matplotlib.pyplot as plt
+import os
 import numpy as np
 from skimage.filters.rank import entropy
 from skimage.morphology import disk
 from skimage.filters import threshold_otsu
-from PIL import Image as im
-import os
+import matplotlib.pyplot as plt
 
-# Specify the path to your image folder
 folder_path = './imgs'
-
-# Get a list of all files in the folder
 dataset = os.listdir(folder_path)
-
-# Filter only the image files (you may adjust the condition based on your image file extensions)
 dataset = [file for file in dataset]
 
 # Sort the list of image files in ascending order
-
-
 dataset = sorted(dataset)
 
 print(dataset)
@@ -27,6 +19,7 @@ print(dataset)
 
 areas = []
 
+# The main loop for segmentation and area counting
 for img in dataset:
     # Loading the image in grayscale and applying Gaussian blur
     image = cv2.imread(f"{folder_path}/{img}")
@@ -80,7 +73,8 @@ for img in dataset:
 
     area = cv2.countNonZero(entropy_padded)
     areas.append(area)
-    
+ 
+# Plot Area VS Hours   
 plt.plot(range(len(areas)), areas)
 plt.xlabel('Hours')
 plt.ylabel('Area')
