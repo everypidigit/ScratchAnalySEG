@@ -23,7 +23,7 @@ The repository will be updated in the future to add new functionality and better
 
 
 #### Segmentation example:
-![segm][https://github.com/everypidigit/ScratchAnalySEG/blob/main/segmentation_example.png]
+![segm](https://github.com/everypidigit/ScratchAnalySEG/blob/main/segmentation_example.png)
 
 
 
