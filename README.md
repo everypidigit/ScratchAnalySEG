@@ -11,11 +11,11 @@ The basic example included in this repository is a scratch assay done at Nazarba
 # How to use:
 ## Create a new environment and install all of the required packages. To install required packages, run:
 
-###### pip install requirements.txt
+#### pip install requirements.txt
 
 ## To run the example code, type:
 
-###### python analyseg.py
+#### python analyseg.py
 
 It will then output a graph with areas plotted against time.
 
